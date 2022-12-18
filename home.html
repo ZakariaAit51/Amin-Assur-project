@@ -141,7 +141,7 @@
                         <strong>On les assure c'est plus sure</strong></h1>
                     <p class="mbr-text mbr-fonts-style display-7">
                         Votre animal est notre responsabilité avant qu'il ne soit la vôtre</p>
-                    <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-7" href="">commancer</a>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-7 commancer" href="javascript:void(0);">commancer</a>
                     </div>
                 </div>
             </div>
@@ -327,6 +327,11 @@
 <script src="271143/assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="271143/assets/smoothscroll/smooth-scroll.js"></script> 
 <script>
     $(".services").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".features17.cid-tqhK04yLS8").offset().top},
+        'slow');
+});
+$(".commancer").click(function() {
     $('html,body').animate({
         scrollTop: $(".features17.cid-tqhK04yLS8").offset().top},
         'slow');
